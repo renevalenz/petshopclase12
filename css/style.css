@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Roboto';
+    margin: 0;
+}
+
+/* //////////////////////// HEADER /////////////////////// */
+
+
+.blackbar {
+    display: flex;
+    align-items: center;
+    background-color: #222222;
+    color: white;
+    padding: 0 20px 0;
+    height: 20px;
+}
+
+.blackbar p {
+    margin-right: auto;
+}
+
+.blackbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.blackbar li {
+    margin-left: 10px;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    background-color: #F0A83E;
+    padding: 0 40px 0;
+    height: 62px;
+
+}
+
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+    color: white;
+
+
+}
+
+.navigation li a {
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+
+}
+
+.navigation li img {
+    margin-right: 5px;
+}
+
+/* ///////////////////// MAIN //////////////////// */
+
+#banner {
+    position: relative;
+    font-weight: 400;
+    color: #3C2313;
+}
+
+#banner img {
+    width: 100%;
+}
+
+#banner h1,
+#banner h2,
+#banner button {
+    position: absolute;
+    right: 40px;
+    text-align: center;
+
+}
+
+#banner h1 {
+    top: 50%;
+    margin-top: -25px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+
+
+}
+
+#banner h2 {
+    top: 50%;
+    margin-top: 60px;
+    font-size: 16px;
+}
+
+#banner button {
+    top: 60%;
+    margin-top: 40px;
+    padding: 10px 20px;
+    background-color: #F0A83E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+.titulo-productos {
+    text-align: center;
+    margin-top: 40px;
+
+}
+
+h2 {
+    font-size: 47px;
+    margin: 5px 0;
+    color: #3C2313;
+
+}
+
+span {
+    margin-left: 20px;
+    font-size: 16px;
+    margin-top: 15px;
+
+
+}
+
+.productos {
+    display: flex;
+    text-align: center;
+    width: 100%;
+    justify-content: center;
+    margin-top: 49px;
+    color: #3C2313;
+
+}
+
+.productos div {
+    margin: 0 30px;
+}
+
+.precio {
+    color: #F0A83E;
+}
+
+#contact-form {
+    
+    background-color: white;
+    text-align: center;
+    padding: 80px;
+}
+
+form h2 {
+    font-size: 30px;
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    margin-bottom: 40px;
+}
+
+.form-inputs input {
+    border-style: none;
+    background-color: #3C2313;
+    border-radius: 15px;
+    margin: 10px 0;
+    padding: 10px;
+    width: 320px;
+    color: white
+}
+
+.form-btn button {
+    border-radius: 15px;
+    border-style: none;
+   padding: 10px;
+   width: 100px;
+   margin-left: 10px;
+   color: white;
+   background-color: #F0A83E;
+   font-weight: 600;
+}
+button[type="reset"] {
+    background-color: rgb(88, 88, 88);
+}
+#sub {
+    margin: 0;
+    height: 60px;
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+.sub-titulo {
+display: flex;
+align-items: center;
+}
+
+.sub-titulo img {
+    width: 8%;
+
+}
+
+.sub-titulo h2 {
+    color: white;
+    margin-left: 10px;
+    font-size: 24px;
+  letter-spacing: 2px;
+}
+
+.sub-input input   {
+border-radius: 15px;
+border-style: none;
+width: 270px;
+padding: 15px ;
+}
+
+.sub-input button {
+border-radius: 15px;
+border-style: none;
+padding: 15px;
+background-color: #3C2313;
+color: white;
+margin-left: 5px;
+}
+
+/* /////////////////////////// FOOTER ////////////////////// */
+
+#footer {
+    margin: 0;
+    background-color: #3C2313;
+    padding: 40px;
+
+}
+
+.contact1,
+.contact2,
+.contact3 {
+    display: flex;
+   color: white;
+    padding: 10px 0;
+
+}
+
+.contact-info {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.contact-info h3 {
+    margin:0
+
+
+
+}
+
+.contact-info p {
+    font-size: 12px;
+    margin-top: 0;
+    color: gray;
+
+
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+
+#logo-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+#derechos {
+    margin: 0;
+    background-color: #222222;
+    color: white;
+    text-align: center;
+
+    font-weight: 700;
+    height: 20px;
+
+}
+
+#derechos h3 {
+    font-size: 10px;
+    margin: 0;
+    padding: 4px;
+}
